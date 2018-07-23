@@ -187,6 +187,7 @@
                 <dd>项目名称：<a rel="nofollow" href="https://github.com/luckydzj/blog.git" target="_blank">laravel-dzjblog</a></dd>
                 <dd>版本分支：{{ config('bjyblog.version') }}-{{ config('bjyblog.branch') }}</dd>
                 <dd>项目作者：<a href="https://dongzhijun.com">董枝俊</a></dd>
+                <dd>后台：<a href="{{ url('admin/index/index') }}">后台入口</a></dd>
             </dl>
 
             <dl class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
