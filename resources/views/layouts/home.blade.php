@@ -26,11 +26,11 @@
             <a class="navbar-brand" href="/">
                 <div class="hidden-xs b-nav-background"></div>
                 <ul class="b-logo-code">
-                    <li class="b-lc-start">&lt;?php</li>
+                    <li class="b-lc-start">Linux</li>
                     <li class="b-lc-echo">echo</li>
                 </ul>
                 <p class="b-logo-word">'{{ $config['WEB_NAME'] }}'</p>
-                <p class="b-logo-end">;</p>
+                {{--<p class="b-logo-end">;</p>--}}
             </a>
         </div>
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -85,7 +85,7 @@
                     <input class="b-search-submit" type="submit" value="全站搜索">
                 </form>
             </div>
-            @if(!empty($config['QQ_QUN_NUMBER']))
+            @if(empty($config['QQ_QUN_NUMBER']))
                 <div class="b-qun">
                     <h4 class="b-title">加入组织</h4>
                     <ul class="b-all-tname">
@@ -184,11 +184,9 @@
 
             <dl class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                 <dt>架构</dt>
-                <dd>项目名称：<a rel="nofollow" href="https://github.com/baijunyao/laravel-bjyblog" target="_blank">laravel-bjyblog</a></dd>
+                <dd>项目名称：<a rel="nofollow" href="https://github.com/luckydzj/blog.git" target="_blank">laravel-dzjblog</a></dd>
                 <dd>版本分支：{{ config('bjyblog.version') }}-{{ config('bjyblog.branch') }}</dd>
-                <dd>项目作者：<a href="https://baijunyao.com">白俊遥</a></dd>
-                <dd>主题名称：<a rel="nofollow" href="https://github.com/baijunyao/blog-theme-blueberry">blog-theme-blueberry</a></dd>
-                <dd>主题作者：<a href="https://baijunyao.com">白俊遥</a></dd>
+                <dd>项目作者：<a href="https://dongzhijun.com">董枝俊</a></dd>
             </dl>
 
             <dl class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
