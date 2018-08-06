@@ -2,21 +2,21 @@
 
 namespace App\Models;
 
-use Laravel\Scout\Searchable;
+//use Laravel\Scout\Searchable;
 
 class Article extends Base
 {
-    use Searchable;
+//    use Searchable;
 
     /**
      * Get the indexable data array for the model.
      *
      * @return array
      */
-    public function toSearchableArray()
-    {
-        return $this->only('id', 'title', 'keywords', 'description', 'markdown');
-    }
+//    public function toSearchableArray()
+//    {
+//        return $this->only('id', 'title', 'keywords', 'description', 'markdown');
+//    }
 
     /**
      * 过滤描述中的换行。
