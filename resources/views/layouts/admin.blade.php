@@ -52,6 +52,7 @@
                                 </ul>
                             </li>
                             <li>
+
                                 <a><i class="fa fa-tags"></i> 标签管理 <span class="fa fa-chevron-down"></span></a>
                                 <ul class="nav child_menu">
                                     <li><a href="{{ url('admin/tag/index') }}">标签列表</a></li>
